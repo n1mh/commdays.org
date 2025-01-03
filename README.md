@@ -2,5 +2,5 @@
 
 Just run:
 ```
-HUGO_ENV=production hugo --buildDrafts --gc --verbose --baseURL https://commdays.org
+HUGO_hugo --baseURL https://commdays.org
 ```
