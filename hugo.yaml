@@ -1,6 +1,6 @@
 baseURL: http://something-fresh.org/
-languageCode: en-us
-title: Hugo Fresh Theme
+languageCode: es-es
+title: Asociación Community Days Spain
 
 module:
   # uncomment line below for local development of module
@@ -28,200 +28,219 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/commdays.org-banner-small.png
     link: /
     # Default width/height. Uncomment if you need to change
     # width: 112
     # height: 28
+    width: 120
+    height: 45
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Asociación Community Days Spain
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: La Asociación Community Days Spain es una asociación de carácter nacional, sin ánimo de lucro que tiene entre sus fines (pero no sólo) la difusión de tecnologías emergentes como la nube, la transformación digital, la ciberseguridad y la inteligencia artificial.
     # Button text
-    buttontext: Get started
+    buttontext: Saber más...
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#que-hacemos"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: logos/commdays.org-logo.png
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
-    clientlogos:
-    - logo: systek
-      url: https://google.com
-    - logo: tribe
-      url: https://stefma.github.io/hugo-fresh/
-    - logo: kromo
-      url: https://github.com/StefMa/hugo-fresh
-    - logo: infinite
-      url: https://hugo-fresh.vercel.app/
-    - logo: gutwork
-      url: https://bulma.io/
+    # clientlogos:
+    # - logo: systek
+    #   url: https://google.com
+    # - logo: tribe
+    #   url: https://stefma.github.io/hugo-fresh/
+    # - logo: kromo
+    #   url: https://github.com/StefMa/hugo-fresh
+    # - logo: infinite
+    #   url: https://hugo-fresh.vercel.app/
+    # - logo: gutwork
+    #   url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
-  sidebar:
-    # Logo (from static/images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+  # navbar:
+  # - title: ¿Qué hacemos?
+  #   url: /
+  # - title: Contacto
+  #   url: /
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  # sidebar:
+  #   # Logo (from static/images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: ¿Qué hacemos?
+    subtitle: A qué nos dedicamos como asociación
     tiles:
-    - title: App builder
+    - title: Difusión de nuevas tecnologías
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Como nube pública, ciberseguridad o IA
+      # url: /
+      buttonText: Difusión
+    - title: Organización de eventos
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: Congresos, workshops y eventos sobre tecnología
+      # url: /
+      buttonText: Organización
+    - title: Colaboración con grupos
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      text: Cooperamos con grupos tecnológicos pequeños
+      # url: /
+      buttonText: Colaboración
+  # section2:
+  #   title: ¿Qué hacemos?
+  #   subtitle: A qué nos dedicamos como asociación
+  #   features:
+  #   - title: Difusión de nuevas tecnologías
+  #     text: Como asociación tenemos entre nuestros fines la difusión de las nuevas tecnologías relacionadas con la nube pública, la transformación digital, la ciberseguridad y la inteligencia artificial, entre otras tecnologías.
+  #     # Icon (from static/images/illustrations/icons/___.svg)
+  #     icon: laptop-globe
+  #   - title: Organización de eventos
+  #     text: organizamos congresos, ferias, workshops y otros eventos relacionados con aquellas tecnologías que son de interés para nosotros.
+  #     icon: doc-sync
+  #   - title: Colaboración con grupos tecnológicos a nivel nacional
+  #     text: También colaboramos con otras entidades para la organización conjunta de dichos eventos, especialmente pensando en grupos tecnológicos más pequeños de ámbito nacional, a los que se les damos soporte y ayuda.
+  #     icon: mobile-feed
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Sobre la asociación
+    subtitle: 
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Asociación Community Days Spain
+      text: 'Teresa la matrona, 41980. La Algaba, Sevilla.'
       # Icon (from static/images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title:
+      text: asociacion@commdays.org
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5:
-    title: Drop us a line or two
-    subtitle: We'd love to hear from you
-    buttonText: Send Message
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
+    # - title: Organización de eventos
+    #   text: organizamos congresos, ferias, workshops y otros eventos relacionados con aquellas tecnologías que son de interés para nosotros.
+    #   icon: doc-sync
+    # - title: Colaboración con grupos tecnológicos a nivel nacional
+    #   text: También colaboramos con otras entidades para la organización conjunta de dichos eventos, especialmente pensando en grupos tecnológicos más pequeños de ámbito nacional, a los que se les damos soporte y ayuda.
+    #   icon: mobile-feed
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
+  # section5:
+  #   title: Drop us a line or two
+  #   subtitle: We'd love to hear from you
+  #   buttonText: Send Message
+  #   # action: https://formspree.io/f/<form_id>
+  #   # method: POST
   footer:
     # Logo (from static/images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: commdays.org-banner-alter.png
     # Social Media Title
-    socialmediatitle: Follow Us
+    # socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/StefMa
+    # socialmedia:
+    # - link: https://github.com/StefMa
       # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/StefMa91
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    #   icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
+    # - link: https://twitter.com/StefMa91
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    bulmalogo: false
     quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+      # column1:
+      #   title: "Product"
+      #   links:
+      #   - text: Discover features
+      #     link: /
+      #   - text: Why choose our product?
+      #     link: /
+      #   - text: Compare features
+      #     link: /
+      #   - text: Our roadmap
+      #     link: /
+      #   - text: AGB
+      #     link: /agb
       column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        title: asociacion@commdays.org
+      #   links:
+      #   - text: Get started
+      #     link: /
+      #   - text: User guides
+      #     link: /
+      #   - text: Admin guide
+      #     link: /
+      #   - text: Developers
+      #     link: /
+      # column3:
+      #   title: "Blog"
+      #   links:
+      #   - text: Latest news
+      #     link: /blog/first
+      #   - text: Tech articles
+      #     link: /blog/second
